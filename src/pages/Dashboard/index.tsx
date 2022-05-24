@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 
-import Header from '../../components/Header';
-import api from '../../services/api';
+import { Header } from '../../components/Header';
 import { Food } from '../../components/Food';
 import ModalEditFood from '../../components/ModalEditFood';
 import ModalAddFood from '../../components/ModalAddFood';
+import api from '../../services/api';
 import { FoodsContainer } from './styles';
 import { FoodType } from '../../types';
 
